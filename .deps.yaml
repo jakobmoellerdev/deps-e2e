@@ -10,3 +10,5 @@ rules:
     allow: "~1.10"
   - updateTypes: [patch]
     automerge: true
+  - names: [actions/setup-python]
+    ignore: true
